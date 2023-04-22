@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    font-family: Garamond;
+    font-size: 20px;
+    color: chocolate;
+    background-color:antiquewhite
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border-bottom: 1px solid chocolate;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.logo img{
+    height: 130px;
+    width: 150px;
+    float: left;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+}
+
+.nav-link {
+    display: block;
+    text-align: center;
+    padding: 25px 40px;
+    text-decoration: none;
+    color: chocolate;
+}
+
+.nav-link:hover {
+    background-color: chocolate;
+    color:antiquewhite
+}
+
+.intro {
+    width: 100%;
+    height: 600px;
+    background-image: url(https://images.radio.com/aiu-media/GettyImages1211962034-e6f72bae-d915-4779-8110-4572462b73a2.jpg);
+    background-size: cover;
+}
+
+.intro div{
+    font-size: 30px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+h1{
+    border-bottom: 1px solid chocolate;
+}
+
+.intro p {   
+    color:antiquewhite;
+}
+
+.order-button {
+    width: 250px;
+    padding: 5px 20px;
+    background-color: chocolate;
+    color:antiquewhite;
+    font-size: 20px;
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#features, #how-its-made, #subscribe{
+    margin: 50px auto 0;
+    padding: 20px 150px;
+    font-size: 25px;
+}
+#subscribe{
+    margin: 50px auto;
+}
+
+.color{
+    color: chocolate;
+    padding-right: 20px;
+}
+
+
+#how-its-made iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    width:640px; 
+    height:480px;
+}
+
+form {
+    text-align: center; 
+}
+
+#email {
+    width: 300px;
+    height: 20px;
+    border: 1px solid chocolate;
+}
+
+#submit {
+    width: 150px;
+    height: 24px;
+    background-color: chocolate;
+    color:antiquewhite;
+    border: 1px solid chocolate;
+}
+
+#submit:hover {
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    background: linear-gradient(chocolate, antiquewhite);
+    color:chocolate;
+    padding-bottom: 20px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: flex-end;
+    color: antiquewhite;
+    margin: 0;
+}
+
+footer a{
+    display: block;
+    text-align: center;
+    padding: 25px 40px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+footer p{
+    text-align: center;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 880px){
+    .nav-link{
+        display: none;
+    }
+    .intro div{
+        font-size: 20px;
+    }
+
+    #how-its-made iframe{
+        width: 320px;
+        height: 240px;
+    }
+}
+
+
